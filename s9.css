@@ -1,0 +1,44 @@
+body{
+    background-color: azure;
+    color: blue;
+    margin: 5px;
+    padding: 2px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+header,
+footer {
+    text-align: center;
+    background-color: lightskyblue;
+}
+p {
+    text-align: justify;
+    text-indent: 8ch;
+}
+p::first-letter {
+    font-size: 120%;
+    color: blueviolet;
+    text-decoration: underline;
+}
+section:hover {
+background-color:antiquewhite;
+}
+h2, h3, h4 {
+    color: rgb(151, 33, 33);
+    text-decoration-line: underline;
+}
+.letter1 {
+    color: black;
+    text-decoration-line: underline;
+    font-size: 120%;
+}
+h3::first-letter {
+    color: black;
+}
+.myinage-div
+{
+    display: none;
+}
+a.myinage-ssilka:hover-div
+{
+    display: block;
+}
